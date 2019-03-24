@@ -1,0 +1,14 @@
+Package: datapeek
+Title: Provides useful functions for working with raw data.
+Version: 0.0.0.1
+Authors@R: person("Sean", "McClure", email="sean.mcclure@example.com", role = c('aut','cre'))
+Description: The datapeek package helps users transform raw data for machine learning development.
+Depends: R (>= 3.5.1)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports:
+    data.table,
+    mltools
+Suggests: testthat
